@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Features Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #ccc;
+        }
+        audio {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 10px;
+        }
+        article {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Features Showcase</h1>
+    </header>
+
+    <section>
+        <!-- Navigation with HTML5 <nav> -->
+        <nav>
+            <ul>
+                <li><a href="#video">Video Section</a></li>
+                <li><a href="#audio">Audio Section</a></li>
+                <li><a href="#article">Article Section</a></li>
+            </ul>
+        </nav>
+
+        <!-- Video Section with HTML5 <video> -->
+        <article id="video">
+            <h2>HTML5 Video Feature</h2>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+
+        <!-- Audio Section with HTML5 <audio> -->
+        <article id="audio">
+            <h2>HTML5 Audio Feature</h2>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+
+        <!-- Article Section with <article> -->
+        <article id="article">
+            <h2>HTML5 Article Section</h2>
+            <p>This is an example of the <strong>HTML5 <code>&lt;article&gt;</code></strong> element. It can be used to define a self-contained piece of content, such as a blog post, news article, or a comment section.</p>
+        </article>
+    </section>
+
+    <!-- Footer with <footer> -->
+    <footer>
+        <p>HTML5 Features Demo - 2025</p>
+    </footer>
+</body>
+</html>
